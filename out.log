@@ -1,0 +1,38 @@
+2020/07/21-23:08 [main] INFO  TestUser- Starting TestUser on Tian with PID 17796 (started by l in D:\idea_workspace\demo\mybatisplus-demo)
+2020/07/21-23:08 [main] INFO  TestUser- No active profile set, falling back to default profiles: default
+2020/07/21-23:08 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/07/21-23:08 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod- [UserMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020/07/21-23:08 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Context refreshed
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Found 1 custom documentation plugin(s)
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Scanning for api listing references
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test1UsingGET_1
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test2UsingGET_1
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test3UsingGET_1
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test4UsingGET_1
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test1UsingGET_2
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test2UsingGET_2
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test3UsingGET_2
+2020/07/21-23:08 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test4UsingGET_2
+2020/07/21-23:08 [main] INFO  TestUser- Started TestUser in 7.553 seconds (JVM running for 8.671)
+2020/07/21-23:08 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2020/07/21-23:09 [main] INFO  TestUser- Starting TestUser on Tian with PID 17888 (started by l in D:\idea_workspace\demo\mybatisplus-demo)
+2020/07/21-23:09 [main] INFO  TestUser- No active profile set, falling back to default profiles: default
+2020/07/21-23:09 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/07/21-23:09 [main] WARN  com.baomidou.mybatisplus.core.injector.AbstractMethod- [UserMapper.selectList] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.SelectList]
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020/07/21-23:09 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Context refreshed
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper- Found 1 custom documentation plugin(s)
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner- Scanning for api listing references
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test1UsingGET_1
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test2UsingGET_1
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test3UsingGET_1
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test4UsingGET_1
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test1UsingGET_2
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test2UsingGET_2
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test3UsingGET_2
+2020/07/21-23:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator- Generating unique operation named: test4UsingGET_2
+2020/07/21-23:09 [main] INFO  TestUser- Started TestUser in 7.607 seconds (JVM running for 8.695)
+2020/07/21-23:09 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
