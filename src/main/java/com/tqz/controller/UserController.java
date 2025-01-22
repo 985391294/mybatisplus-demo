@@ -11,7 +11,6 @@ import io.swagger.annotations.ApiSort;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * <p>
- *  前端控制器
+ * 前端控制器
  * </p>
  *
  * @author tian
@@ -60,11 +59,11 @@ public class UserController {
     }
 
     @RequestMapping(value = "error", method = RequestMethod.GET)
-    public String error(){
+    public String error() {
         try {
             log.info("异常接口执行了，可以使用索引了。。。");
             int i = 1 / 0;
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             return "服务异常！！！";
         }
@@ -97,19 +96,7 @@ public class UserController {
         // 当 total 为小于 0 或者设置 setSearchCount(false) 分页插件不会进行 count 查询
         // 要点!! 分页返回的对象与传入的对象是同一个
         Page<User> page = new Page<User>(pageNumber, pageSize)/*.setSearchCount(true)*/;
-        IPage<User> iPage = userService.selectUserPage(page);
-        return iPage;
+        return userService.selectUserPage(page);
     }
 
-    public static void main(String[] args) {
-        int i = 5;
-
-        if(i > 5) {
-            System.out.println("大一1");
-        } else if (i > 2) {
-            System.out.println("大于2");
-        } else if (i > 3) {
-            System.out.println("大于3");
-        }
-    }
 }
